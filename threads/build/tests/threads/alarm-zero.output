@@ -1,0 +1,18 @@
+Writing command line to /tmp/yx70Y9EcL9.dsk...
+qemu -hda /tmp/yx70Y9EcL9.dsk -m 4 -net none -nographic -monitor null
+Kernel command line: -q run alarm-zero
+Pintos booting with 4,088 kB RAM...
+371 pages available in kernel pool.
+371 pages available in user pool.
+Calibrating timer...  419,020,800 loops/s.
+Boot complete.
+Executing 'alarm-zero':
+(alarm-zero) begin
+(alarm-zero) PASS
+(alarm-zero) end
+Execution of 'alarm-zero' complete.
+Timer: 24 ticks
+Thread: 1 idle ticks, 23 kernel ticks, 0 user ticks
+Console: 385 characters output
+Keyboard: 0 keys pressed
+Powering off...

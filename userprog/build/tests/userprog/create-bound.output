@@ -1,0 +1,29 @@
+Copying tests/userprog/create-bound into /tmp/rAlBkBP7hZ.dsk...
+Writing command line to /tmp/SAXq4KcNA0.dsk...
+qemu -hda /tmp/SAXq4KcNA0.dsk -hdb /tmp/wMu4sWaQX0.dsk -hdc /tmp/rAlBkBP7hZ.dsk -m 4 -net none -nographic -monitor null
+Kernel command line: -q -f put create-bound run create-bound
+Pintos booting with 4,088 kB RAM...
+371 pages available in kernel pool.
+371 pages available in user pool.
+Calibrating timer...  419,020,800 loops/s.
+hd0:0: detected 161 sector (80 kB) disk, model "QEMU HARDDISK", serial "QM00001"
+hd0:1: detected 4,032 sector (1 MB) disk, model "QEMU HARDDISK", serial "QM00002"
+hd1:0: detected 100 sector (50 kB) disk, model "QEMU HARDDISK", serial "QM00003"
+Formatting file system...done.
+Boot complete.
+Putting 'create-bound' into the file system...
+Executing 'create-bound':
+(create-bound) begin
+(create-bound) create("quux.dat"): 1
+(create-bound) end
+create-bound: exit(0)
+Execution of 'create-bound' complete.
+Timer: 57 ticks
+Thread: 33 idle ticks, 23 kernel ticks, 1 user ticks
+hd0:0: 0 reads, 0 writes
+hd0:1: 81 reads, 212 writes
+hd1:0: 100 reads, 0 writes
+Console: 859 characters output
+Keyboard: 0 keys pressed
+Exception: 0 page faults
+Powering off...

@@ -1,0 +1,18 @@
+Writing command line to /tmp/ZwZ4fj3Aay.dsk...
+qemu -hda /tmp/ZwZ4fj3Aay.dsk -m 4 -net none -nographic -monitor null
+Kernel command line: -q run alarm-negative
+Pintos booting with 4,088 kB RAM...
+371 pages available in kernel pool.
+371 pages available in user pool.
+Calibrating timer...  419,020,800 loops/s.
+Boot complete.
+Executing 'alarm-negative':
+(alarm-negative) begin
+(alarm-negative) PASS
+(alarm-negative) end
+Execution of 'alarm-negative' complete.
+Timer: 23 ticks
+Thread: 1 idle ticks, 22 kernel ticks, 0 user ticks
+Console: 409 characters output
+Keyboard: 0 keys pressed
+Powering off...

@@ -1,0 +1,31 @@
+Copying tests/userprog/open-boundary into /tmp/Jq2_UeuSdS.dsk...
+Copying ../../tests/userprog/sample.txt into /tmp/Jq2_UeuSdS.dsk...
+Writing command line to /tmp/5ehvQp1n7c.dsk...
+qemu -hda /tmp/5ehvQp1n7c.dsk -hdb /tmp/6mWITHisdw.dsk -hdc /tmp/Jq2_UeuSdS.dsk -m 4 -net none -nographic -monitor null
+Kernel command line: -q -f put open-boundary put sample.txt run open-boundary
+Pintos booting with 4,088 kB RAM...
+371 pages available in kernel pool.
+371 pages available in user pool.
+Calibrating timer...  419,020,800 loops/s.
+hd0:0: detected 161 sector (80 kB) disk, model "QEMU HARDDISK", serial "QM00001"
+hd0:1: detected 4,032 sector (1 MB) disk, model "QEMU HARDDISK", serial "QM00002"
+hd1:0: detected 102 sector (51 kB) disk, model "QEMU HARDDISK", serial "QM00003"
+Formatting file system...done.
+Boot complete.
+Putting 'open-boundary' into the file system...
+Putting 'sample.txt' into the file system...
+Executing 'open-boundary':
+(open-boundary) begin
+(open-boundary) open "sample.txt"
+(open-boundary) end
+open-boundary: exit(0)
+Execution of 'open-boundary' complete.
+Timer: 57 ticks
+Thread: 33 idle ticks, 23 kernel ticks, 1 user ticks
+hd0:0: 0 reads, 0 writes
+hd0:1: 90 reads, 214 writes
+hd1:0: 102 reads, 0 writes
+Console: 924 characters output
+Keyboard: 0 keys pressed
+Exception: 0 page faults
+Powering off...
